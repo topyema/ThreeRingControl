@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A88AF5F21E668B9600441C04 /* ThreeRingControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88AF5E81E668B9600441C04 /* ThreeRingControl.framework */; };
+		A88AF5F71E668B9600441C04 /* ThreeRingControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88AF5F61E668B9600441C04 /* ThreeRingControlTests.swift */; };
+		A88AF5F91E668B9600441C04 /* ThreeRingControl.h in Headers */ = {isa = PBXBuildFile; fileRef = A88AF5EB1E668B9600441C04 /* ThreeRingControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A88AF60A1E668C1900441C04 /* CircularGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88AF6021E668C1900441C04 /* CircularGradient.swift */; };
+		A88AF60B1E668C1900441C04 /* coin07.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A88AF6031E668C1900441C04 /* coin07.mp3 */; };
+		A88AF60C1E668C1900441C04 /* Fanfare.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88AF6041E668C1900441C04 /* Fanfare.swift */; };
+		A88AF60D1E668C1900441C04 /* RingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88AF6051E668C1900441C04 /* RingLayer.swift */; };
+		A88AF60E1E668C1900441C04 /* RingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88AF6061E668C1900441C04 /* RingTip.swift */; };
+		A88AF60F1E668C1900441C04 /* ThreeRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88AF6071E668C1900441C04 /* ThreeRingView.swift */; };
+		A88AF6101E668C1900441C04 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88AF6081E668C1900441C04 /* Utilities.swift */; };
+		A88AF6111E668C1900441C04 /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A88AF6091E668C1900441C04 /* winning.mp3 */; };
+		A88AF6211E6691C700441C04 /* ThreeRingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88AF6201E6691C700441C04 /* ThreeRingTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A88AF5F31E668B9600441C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A88AF5DF1E668B9600441C04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A88AF5E71E668B9600441C04;
+			remoteInfo = ThreeRingControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A88AF5E81E668B9600441C04 /* ThreeRingControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThreeRingControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88AF5EB1E668B9600441C04 /* ThreeRingControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeRingControl.h; sourceTree = "<group>"; };
+		A88AF5EC1E668B9600441C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88AF5F11E668B9600441C04 /* ThreeRingControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeRingControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88AF5F61E668B9600441C04 /* ThreeRingControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeRingControlTests.swift; sourceTree = "<group>"; };
+		A88AF5F81E668B9600441C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88AF6021E668C1900441C04 /* CircularGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularGradient.swift; sourceTree = "<group>"; };
+		A88AF6031E668C1900441C04 /* coin07.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin07.mp3; sourceTree = "<group>"; };
+		A88AF6041E668C1900441C04 /* Fanfare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fanfare.swift; sourceTree = "<group>"; };
+		A88AF6051E668C1900441C04 /* RingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingLayer.swift; sourceTree = "<group>"; };
+		A88AF6061E668C1900441C04 /* RingTip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingTip.swift; sourceTree = "<group>"; };
+		A88AF6071E668C1900441C04 /* ThreeRingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeRingView.swift; sourceTree = "<group>"; };
+		A88AF6081E668C1900441C04 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A88AF6091E668C1900441C04 /* winning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winning.mp3; sourceTree = "<group>"; };
+		A88AF6201E6691C700441C04 /* ThreeRingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeRingTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A88AF5E41E668B9600441C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88AF5EE1E668B9600441C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88AF5F21E668B9600441C04 /* ThreeRingControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A88AF5DE1E668B9600441C04 = {
+			isa = PBXGroup;
+			children = (
+				A88AF5EA1E668B9600441C04 /* ThreeRingControl */,
+				A88AF5F51E668B9600441C04 /* ThreeRingControlTests */,
+				A88AF5E91E668B9600441C04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A88AF5E91E668B9600441C04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A88AF5E81E668B9600441C04 /* ThreeRingControl.framework */,
+				A88AF5F11E668B9600441C04 /* ThreeRingControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A88AF5EA1E668B9600441C04 /* ThreeRingControl */ = {
+			isa = PBXGroup;
+			children = (
+				A88AF6021E668C1900441C04 /* CircularGradient.swift */,
+				A88AF6031E668C1900441C04 /* coin07.mp3 */,
+				A88AF6041E668C1900441C04 /* Fanfare.swift */,
+				A88AF6051E668C1900441C04 /* RingLayer.swift */,
+				A88AF6061E668C1900441C04 /* RingTip.swift */,
+				A88AF6071E668C1900441C04 /* ThreeRingView.swift */,
+				A88AF6081E668C1900441C04 /* Utilities.swift */,
+				A88AF6091E668C1900441C04 /* winning.mp3 */,
+				A88AF5EB1E668B9600441C04 /* ThreeRingControl.h */,
+				A88AF5EC1E668B9600441C04 /* Info.plist */,
+			);
+			path = ThreeRingControl;
+			sourceTree = "<group>";
+		};
+		A88AF5F51E668B9600441C04 /* ThreeRingControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				A88AF6201E6691C700441C04 /* ThreeRingTest.swift */,
+				A88AF5F61E668B9600441C04 /* ThreeRingControlTests.swift */,
+				A88AF5F81E668B9600441C04 /* Info.plist */,
+			);
+			path = ThreeRingControlTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A88AF5E51E668B9600441C04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88AF5F91E668B9600441C04 /* ThreeRingControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A88AF5E71E668B9600441C04 /* ThreeRingControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A88AF5FC1E668B9600441C04 /* Build configuration list for PBXNativeTarget "ThreeRingControl" */;
+			buildPhases = (
+				A88AF5E31E668B9600441C04 /* Sources */,
+				A88AF5E41E668B9600441C04 /* Frameworks */,
+				A88AF5E51E668B9600441C04 /* Headers */,
+				A88AF5E61E668B9600441C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeRingControl;
+			productName = ThreeRingControl;
+			productReference = A88AF5E81E668B9600441C04 /* ThreeRingControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A88AF5F01E668B9600441C04 /* ThreeRingControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A88AF5FF1E668B9600441C04 /* Build configuration list for PBXNativeTarget "ThreeRingControlTests" */;
+			buildPhases = (
+				A88AF5ED1E668B9600441C04 /* Sources */,
+				A88AF5EE1E668B9600441C04 /* Frameworks */,
+				A88AF5EF1E668B9600441C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A88AF5F41E668B9600441C04 /* PBXTargetDependency */,
+			);
+			name = ThreeRingControlTests;
+			productName = ThreeRingControlTests;
+			productReference = A88AF5F11E668B9600441C04 /* ThreeRingControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A88AF5DF1E668B9600441C04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yema;
+				TargetAttributes = {
+					A88AF5E71E668B9600441C04 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9C338W9WF3;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					A88AF5F01E668B9600441C04 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9C338W9WF3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A88AF5E21E668B9600441C04 /* Build configuration list for PBXProject "ThreeRingControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A88AF5DE1E668B9600441C04;
+			productRefGroup = A88AF5E91E668B9600441C04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A88AF5E71E668B9600441C04 /* ThreeRingControl */,
+				A88AF5F01E668B9600441C04 /* ThreeRingControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A88AF5E61E668B9600441C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88AF60B1E668C1900441C04 /* coin07.mp3 in Resources */,
+				A88AF6111E668C1900441C04 /* winning.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88AF5EF1E668B9600441C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A88AF5E31E668B9600441C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88AF6101E668C1900441C04 /* Utilities.swift in Sources */,
+				A88AF60A1E668C1900441C04 /* CircularGradient.swift in Sources */,
+				A88AF60E1E668C1900441C04 /* RingTip.swift in Sources */,
+				A88AF60F1E668C1900441C04 /* ThreeRingView.swift in Sources */,
+				A88AF60D1E668C1900441C04 /* RingLayer.swift in Sources */,
+				A88AF60C1E668C1900441C04 /* Fanfare.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88AF5ED1E668B9600441C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88AF6211E6691C700441C04 /* ThreeRingTest.swift in Sources */,
+				A88AF5F71E668B9600441C04 /* ThreeRingControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A88AF5F41E668B9600441C04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A88AF5E71E668B9600441C04 /* ThreeRingControl */;
+			targetProxy = A88AF5F31E668B9600441C04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A88AF5FA1E668B9600441C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A88AF5FB1E668B9600441C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A88AF5FD1E668B9600441C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9C338W9WF3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ThreeRingControl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yema.ThreeRingControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A88AF5FE1E668B9600441C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9C338W9WF3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ThreeRingControl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yema.ThreeRingControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A88AF6001E668B9600441C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9C338W9WF3;
+				INFOPLIST_FILE = ThreeRingControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yema.ThreeRingControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A88AF6011E668B9600441C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9C338W9WF3;
+				INFOPLIST_FILE = ThreeRingControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yema.ThreeRingControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A88AF5E21E668B9600441C04 /* Build configuration list for PBXProject "ThreeRingControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88AF5FA1E668B9600441C04 /* Debug */,
+				A88AF5FB1E668B9600441C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A88AF5FC1E668B9600441C04 /* Build configuration list for PBXNativeTarget "ThreeRingControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88AF5FD1E668B9600441C04 /* Debug */,
+				A88AF5FE1E668B9600441C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A88AF5FF1E668B9600441C04 /* Build configuration list for PBXNativeTarget "ThreeRingControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88AF6001E668B9600441C04 /* Debug */,
+				A88AF6011E668B9600441C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A88AF5DF1E668B9600441C04 /* Project object */;
+}
